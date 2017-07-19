@@ -10,6 +10,8 @@
   "author": "Aleksandr Ignatyev <vigntom.2708@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": "6.9.4" 
+    "node": "6.9.4",
+    "yarn": "0.21.3",
+    "npm": "3.10.10"
   }
 }
