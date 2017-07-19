@@ -13,5 +13,24 @@
     "node": "6.9.4",
     "yarn": "0.21.3",
     "npm": "3.10.10"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "supertest": "^3.0.0"
+  },
+  "ava": {
+    "files": [
+      "tests/**/*.test.js"
+    ],
+    "source": [
+      "server/*.js",
+      "lib/*.js"
+    ],
+    "tap": true,
+    "concurrency": 5
+  },
+  "scripts": {
+    "test": "ava",
+    "start": "node server/main.js"
   }
 }
