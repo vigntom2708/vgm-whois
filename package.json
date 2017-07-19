@@ -9,7 +9,7 @@
   },
   "author": "Aleksandr Ignatyev <vigntom.2708@gmail.com>",
   "license": "MIT",
-  "engine": {
+  "engines": {
     "node": "6.9.4" 
   }
 }
