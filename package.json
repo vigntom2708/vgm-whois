@@ -3,7 +3,13 @@
   "version": "0.0.1",
   "description": "Request Header Parser Microservice",
   "main": "./server/main.js",
-  "repository": "git@github.com:vigntom2708/vgm-whois.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:vigntom2708/vgm-whois.git"
+  },
   "author": "Aleksandr Ignatyev <vigntom.2708@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "engine": {
+    "node": "6.9.4" 
+  }
 }
